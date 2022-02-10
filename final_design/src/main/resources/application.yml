@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  compression:
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+    enabled: true
+    min-response-size: 2048
+
+spring:
+  datasource:
+    username: root
+    password: aaaaaaaa
+    url: jdbc:mysql://localhost:3306/yukinaDB?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    time-zone: GMT+8 # 设置时区，不然timestamp要跑偏
+
+#showSql
+logging:
+  level:
+    com:
+      example:
+        mapper : debug

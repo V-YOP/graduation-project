@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/mysql": "^2.15.18",
+    "@types/proj4": "^2.5.0",
+    "@types/shapefile": "^0.6.0",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "proj4": "^2.7.2",
+    "shapefile": "^0.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.0"
+  }
+}

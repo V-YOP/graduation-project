@@ -1,0 +1,38 @@
+{
+  "name": "element-plus-vite-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@antv/l7": "^2.3.9",
+    "@antv/l7-component": "^2.3.9",
+    "@antv/l7-district": "^2.3.1",
+    "@antv/l7-maps": "^2.3.9",
+    "@types/js-cookie": "^2.2.6",
+    "@types/mathjs": "^9.3.2",
+    "@types/sockjs": "^0.3.32",
+    "@vitejs/plugin-vue-jsx": "^1.1.4",
+    "axios": "^0.21.1",
+    "echarts": "^5.1.1",
+    "element-plus": "latest",
+    "jquery": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^1.13.1",
+    "mathjs": "^9.4.1",
+    "moment": "^2.29.1",
+    "sockjs": "^0.3.21",
+    "ss-graph": "^0.1.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.5",
+    "@types/node": "^15.0.1",
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.0-beta.12"
+  }
+}
